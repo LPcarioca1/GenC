@@ -6,7 +6,7 @@ namespace Escopo
         {
             Console.WriteLine("Executando o projeto 9 - Escopo");
 
-            int idadeJoao = 18;
+            int idadeLuis = 18;
             bool acompanhado = true;
             string mensagemAdicional;
 
@@ -19,7 +19,7 @@ namespace Escopo
                 mensagemAdicional = "Luís não está acompanhado!";
             }
 
-            if (idadeJoao >= 18 || acompanhado == true)
+            if (idadeLuis >= 18 || acompanhado == true)
             {
                 Console.WriteLine("Pode entrar.");
                 Console.WriteLine(mensagemAdicional);
